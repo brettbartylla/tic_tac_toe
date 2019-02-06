@@ -1,0 +1,58 @@
+body {
+
+  margin: 20px;
+  font-family: 'Indie Flower', serif;
+}
+li{
+      font-size: 30px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  font-family: 'Indie Flower', serif;
+  border: 1px solid #999;
+  float: left;
+  font-size: 265px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+    margin-left:20%;
+}
+
+.game-info {
+  margin-left: 20px;
+  font-size: 50px;
+}
